@@ -11,7 +11,7 @@
 * boolean operators
 * number - повторение 
 * bigInt
-* Работа с объектами. loops via objects
+* Работа с объектами часть 1. loops via objects
 * Работа с массивами: array methods, loops 
 * symbol, примеры использования
 * директива `use strict`

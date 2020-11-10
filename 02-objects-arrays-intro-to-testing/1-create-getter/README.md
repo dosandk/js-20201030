@@ -19,4 +19,5 @@ const product = {
 const getter = createGetter('category.title');
 
 console.log(getter(product)); // Goods
+console.log(getter({})); // Goods
 ```
