@@ -38,6 +38,6 @@ export const createGetterRecursion = path => {
       return getValue(arr);
     };
 
-    return getValue(pathArray);
+    return getValue([...pathArray]);
   };
 }
