@@ -13,7 +13,7 @@
 * загрузка документа, каким образом браузер читает html
 * событие `domContentLoaded`
 * Javascript modules
-* Коллекции Map и Set
+* Коллекции `Map` и `Set`
 * тесты - продолжение
 
 ## Разбор ДЗ - "SortableTable" и "NotificationMessage" компонент
