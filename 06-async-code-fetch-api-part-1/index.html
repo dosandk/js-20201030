@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<script>
+    const promise = new Promise((resolve, reject) => {
+      resolve({foo: 'bar'});
+    });
+
+    promise.then(data => {
+      console.error(data);
+    })
+
+    console.error('promise', promise);
+
+</script>

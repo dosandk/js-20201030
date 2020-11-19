@@ -1,0 +1,30 @@
+<!doctype html>
+<meta charset="utf-8">
+
+<input type="file" id="fileInput">
+
+<script type="module">
+  import ImageUploader from './index.js';
+
+  fileInput.onchange = upload;
+
+  async function upload() {
+    let uploader = new ImageUploader();
+
+    alert('Загружаем...');
+
+    let result;
+
+    try {
+      result = await uploader.upload(fileInput.files[0]);
+      alert('Изображение загружено');
+    } catch(err) {
+      alert('Ошибка загрузки изображения');
+      console.error(err);
+    } finally {
+      alert('Готово!')
+    }
+
+    console.log(result);
+  }
+</script>
