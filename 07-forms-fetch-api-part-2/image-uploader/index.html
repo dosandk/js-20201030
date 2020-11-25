@@ -16,7 +16,9 @@
     let result;
 
     try {
-      result = await uploader.upload(fileInput.files[0]);
+      const [file] = fileInput.files;
+      result = await uploader.upload(file);
+
       alert('Изображение загружено');
     } catch(err) {
       alert('Ошибка загрузки изображения');

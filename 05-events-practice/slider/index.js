@@ -48,9 +48,6 @@ export default class Slider {
   initEventListeners() {
     const thumb = this.element.querySelector('.thumb');
 
-    // btn.addEventListener()
-    // this.subElements.header.addEventListener()
-
     thumb.addEventListener('pointerdown', event => {
       event.preventDefault(); // предотвратить запуск выделения (действие браузера)
 

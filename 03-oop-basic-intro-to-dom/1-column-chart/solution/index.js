@@ -14,8 +14,6 @@ export default class ColumnChart {
     this.link = link;
     this.value = value;
 
-    this.header = new Header({});
-
     this.render();
   }
 
