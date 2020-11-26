@@ -49,7 +49,7 @@ export default class ColumnChart {
     this.url.searchParams.set('from', from.toISOString()); // url = https://google.com + ?from=decodeURIComponent(...)
     this.url.searchParams.set('to', to.toISOString());
 
-    const data = await fetch(this.url); // объект промиса
+    const data = await fetchJson(this.url);
 
     this.setNewRange(from, to);
 
