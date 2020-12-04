@@ -7,9 +7,9 @@
 ## Новая тема 
 
 * Динамические импорты import(module)
-* router 
+* router
+* Webpack 
 * XSS (Cross-Site Scripting — «межсайтовый скриптинг») + escapeHtml
-* Webpack
 
 ## Разбор нового ДЗ
 
