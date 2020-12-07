@@ -22,7 +22,7 @@ export default class SortableTable {
       column.dataset.order = toggleOrder(order);
 
       if (!arrow) {
-        column.append(arrow);
+        column.append(this.subElements.arrow);
       }
 
       this.subElements.body.innerHTML = this.getTableRows(sortedData);
